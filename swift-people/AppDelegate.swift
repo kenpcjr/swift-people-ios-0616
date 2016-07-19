@@ -17,6 +17,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         */
         
+        let ken = Person.init()
+        
+        print(ken.name)
+        
+        print (ken.celebrateBirthday())
+        
+        ken.age = 32
+        
+        print (ken.celebrateBirthday())
+        
+        let kenForReal = Person.init(name: "Ken", ageInYears: 32)
+        
+        print(kenForReal.qualifiedTutor)
+        
+        kenForReal.learnSkillBash()
+        
+        kenForReal.learnSkillSwift()
+        
+        kenForReal.learnSkillObjectiveC()
+        
+        print(kenForReal.qualifiedTutor)
+        
+        kenForReal.learnSkillInterfaceBuilder()
+        
+        print(kenForReal.qualifiedTutor)
+        
+        
+        
+        
         // Do not alter
         return true  //
     }   //////////////
